@@ -1,0 +1,14 @@
+@media (max-width: 767px) {
+  main #devise {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  main #devise img {
+    margin-right: 0;
+  }
+
+  main #concept ul li {
+    width: 100%;
+  }
+}

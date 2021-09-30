@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
+
+/* ♠ ♠ ♠ ♠ ♠ ♠  GLOBALES CSS ♠ ♠ ♠ ♠ ♠  */
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* ♠ ♠ ♠ ♠ ♠ ♠  GLOBALES CLASSSES ♠ ♠ ♠ ♠ ♠  */
+:root {
+  --pink: #feb4c3;
+  --orange: #f59e28;
+}
+
+.container {
+  max-width: 1060px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ STYLE PAR SECTION ♥ ♥ ♥ ♥ ♥ ♥ ♥  */
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ HEADER ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥  */
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.349), rgba(0, 0, 0, 0.445)),
+    url(../img/detoxcuresmoothie.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 20px 0;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav img {
+  width: 100px;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header h1 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  letter-spacing: 5px;
+  margin: 150px 0;
+}
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ partie devise ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥  */
+
+main #devise {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+main #devise img {
+  width: 250px;
+  margin-right: 50px;
+}
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ partie fabrication ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥  */
+main #fabrication {
+  background-image: linear-gradient(#feb4c3, #f59e28);
+  padding: 40px 0;
+  margin-top: 40px;
+  color: white;
+  text-align: center;
+}
+
+main #fabrication article {
+  margin-top: 50px;
+}
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ partie concept ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥  */
+
+main #concept ul {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+main #concept ul li {
+  width: 30%;
+}
+
+footer {
+  background-color: var(--orange);
+  text-align: center;
+  color: white;
+  padding: 20px;
+  margin-top: 40px;
+}
